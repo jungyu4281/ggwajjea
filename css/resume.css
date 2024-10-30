@@ -1,0 +1,81 @@
+*{
+    white-space: nowrap;
+}
+.resume-table,
+.experience-table,
+.certification-table,
+.awards-table {
+    width: calc(100% - 40px); 
+    border-collapse: collapse; 
+    margin: 10px auto; 
+    padding: 0; 
+}
+
+.profile-picture {
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    text-align: center; 
+    vertical-align: top; 
+}
+
+.profile-picture img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.resume-table th,
+.resume-table td,
+.experience-table th,
+.experience-table td,
+.certification-table th,
+.certification-table td,
+.awards-table th,
+.awards-table td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+}
+
+.resume-table th,
+.experience-table th,
+.certification-table th,
+.awards-table th {
+    background-color: #f2f2f2; 
+}
+
+.experience-table td,
+.certification-table td,
+.awards-table td {
+    width: 33vw; 
+    text-align: center; 
+}
+
+.profile-description {
+    padding-left: 10px;
+    color: #555;
+}
+
+.section-title {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left; 
+    width: 150px;
+}
+
+.sub-section-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro-section {
+    padding: 5px;
+    border-top: 1px solid #ccc;
+}

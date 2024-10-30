@@ -1,0 +1,104 @@
+
+.profile-section {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    max-width: calc(100% - 60px); 
+    margin: 0 auto; 
+    padding:20px;
+}
+
+
+.profile-info,
+.profile-intro,
+.certifications {
+    flex: 1;
+    padding: 15px;
+    margin: 0 10px; 
+}
+
+.profile-intro p,
+.profile-info p{
+    margin: 10px 0; 
+}
+
+.certification-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.certification-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.certification-table th {
+    background-color: #f0f0f0; 
+}
+
+.certification-table th, .certification-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 5px;
+    
+}
+
+.star {
+    width: 15px;
+    height: 15px;
+    background-color: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star.empty {
+    background-color: #e0e0e0;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    padding: 0 30px; 
+    box-sizing: border-box; 
+}
+
+.image-link {
+    flex: 1; 
+    text-align: center; 
+    margin: 20px; 
+    max-width: calc(50% - 60px); 
+}
+
+.image-link img {
+    width: 100%; 
+    height: auto; 
+    max-height: 70%; 
+    object-fit: contain; 
+    border-radius: 8px;
+}
+
+.image-link img:hover {
+    transform: scale(1.05);
+}
+
+.image-link p {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
